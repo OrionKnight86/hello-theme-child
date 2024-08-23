@@ -32,6 +32,7 @@ function hello_elementor_child_scripts_styles() {
 		HELLO_ELEMENTOR_CHILD_VERSION
 	);
 
+	wp_enqueue_style( 'default_styles', get_stylesheet_directory_uri() . '/css/styles.css', array(), '1.0', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
 
