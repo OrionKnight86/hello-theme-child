@@ -4,4 +4,19 @@ a {
 }
 a :hover {
   color: #8c0971;
+}
+
+.mega-menu-wrap {
+  background-color: #ffffff !important;
+}
+.mega-menu-wrap li.mega-menu-item a.mega-menu-link {
+  color: #000000 !important;
+}
+.mega-menu-wrap li.mega-menu-item.mega-current-menu-item a.mega-menu-link {
+  background: #4b00e7 !important;
+  color: #ffffff !important;
+}
+
+.page-header .entry-title {
+  color: #000000 !important;
 }/*# sourceMappingURL=styles.css.map */

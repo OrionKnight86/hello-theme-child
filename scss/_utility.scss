@@ -1,0 +1,13 @@
+@mixin flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@function colorTheme($color){
+    @if(lightness($color) > 60){
+        @return #000000;
+    }@else {
+        @return #ffffff;
+    }
+}
