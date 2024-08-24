@@ -1,3 +1,7 @@
 a {
-  color: #4b00e7;
+  color: #61ce70;
+  text-decoration: none;
+}
+a :hover {
+  color: #8c0971;
 }/*# sourceMappingURL=styles.css.map */

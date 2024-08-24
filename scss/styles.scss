@@ -1,0 +1,10 @@
+@import "base";
+
+a {
+  color: $secondaryColor;
+  text-decoration:none;
+
+  :hover{
+    color: $hoverColor;
+  }
+}
